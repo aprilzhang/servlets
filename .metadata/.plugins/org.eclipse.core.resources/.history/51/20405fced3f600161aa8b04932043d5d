@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+   <!-- 初始的页面 -->  
+  <welcome-file-list>  
+    <welcome-file>index.html</welcome-file>  
+    <welcome-file>index.htm</welcome-file>  
+    <welcome-file>index.jsp</welcome-file>  
+  </welcome-file-list>  
+  
+  <!-- 用户名和密码验证的servlet -->  
+  <servlet>  
+    <servlet-name>LoginCheck</servlet-name>  
+    <servlet-class>com.duochuan.LoginCheck</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>LoginCheck</servlet-name>  
+    <url-pattern>/servlet/LoginCheck</url-pattern>  
+  </servlet-mapping>  
+  
+  <!-- 显示欢迎的servlet -->  
+    <servlet>  
+    <servlet-name>Welcome</servlet-name>  
+    <servlet-class>com.duochuan.Welcome</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>Welcome</servlet-name>  
+    <url-pattern>/servlet/Welcome</url-pattern>  
+  </servlet-mapping>  
+  
+  <servlet>
+    <servlet-name>HelloWorld</servlet-name>
+    <servlet-class>com.duochuan.helloworld.HelloWorld</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloWorld</servlet-name>
+    <url-pattern>/servlet/HelloWorld</url-pattern>
+  </servlet-mapping>
+</web-app>

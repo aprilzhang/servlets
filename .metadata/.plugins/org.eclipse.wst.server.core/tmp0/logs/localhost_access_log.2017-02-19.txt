@@ -1,0 +1,8 @@
+127.0.0.1 - - [19/Feb/2017:18:46:40 +0000] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [19/Feb/2017:18:46:41 +0000] "GET /ServletBeginner/servlet/com.duochuan.login.LoginCheck HTTP/1.1" 404 1104
+0:0:0:0:0:0:0:1 - - [19/Feb/2017:18:47:07 +0000] "GET /ServletBeginner/servlet/com.duochuan.login.LoginCheck HTTP/1.1" 404 1104
+127.0.0.1 - - [19/Feb/2017:18:47:19 +0000] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [19/Feb/2017:18:47:19 +0000] "GET /ServletBeginner/servlet/LoginCheck HTTP/1.1" 503 1053
+0:0:0:0:0:0:0:1 - - [19/Feb/2017:18:47:35 +0000] "GET /ServletBeginner/servlet/Welcome HTTP/1.1" 200 121
+0:0:0:0:0:0:0:1 - - [19/Feb/2017:18:48:19 +0000] "GET /ServletBeginner/ HTTP/1.1" 200 532
+0:0:0:0:0:0:0:1 - - [19/Feb/2017:18:48:41 +0000] "POST /ServletBeginner/servlet/LoginCheck HTTP/1.1" 200 125
